@@ -1,0 +1,186 @@
+.star {
+    position: absolute;
+    animation-name: star1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    /* Firefox: */
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -moz-animation-play-state: running;
+    /* Safari and Chrome: */
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Opera: */
+
+    -o-animation-duration: 2s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: alternate;
+    -o-animation-play-state: running;
+}
+
+.star-1 {
+    animation-name: star1;
+    left: 161px;
+}
+
+.star-2 {
+    animation-name: star2;
+    animation-duration: 1s;
+    right: 150px;
+    width: 69px;
+}
+
+.star-3 {
+    animation-name: star3;
+    animation-duration: 0.5s;
+    right: 27px;
+    width: 50px;
+}
+.star-4 {
+    animation-name: star4;
+    animation-duration: 3s;
+    left: 74px;
+    width: 69px;
+}
+.star-5 {
+    animation-name: star5;
+    animation-duration: 3s;
+    right: 237px;
+    width: 109px;
+}
+
+.circle-1 {
+    animation-name: circle1;
+    animation-duration: 0.5s;
+    left: -32.5px;
+    width: 65px;
+}
+
+.circle-2 {
+    animation-name: circle2;
+    animation-duration: 2s;
+    left: 120px;
+    width: 41px;
+}
+.circle-3 {
+    animation-name: circle3;
+    animation-duration: 0.5s;
+    right: 173px;
+    width: 46px;
+}
+.circle-4 {
+    animation-name: circle4;
+    animation-duration: 1.5s;
+    right: 43px;
+    width: 65px;
+}.circle-5 {
+    animation-name: circle5;
+    animation-duration: 2s;
+    right: 196px;
+    width: 41px;
+}.circle-6 {
+    animation-name: circle6;
+    animation-duration: 3s;
+    left: 97px;
+    width: 46px;
+}
+
+@keyframes star1 {
+    from {
+        top: -80px;
+    }
+    to {
+        top: -50px;
+    }
+}
+
+@keyframes star2 {
+    from {
+        top: 50px;
+    }
+    to {
+        top: 100px;
+    }
+}
+
+@keyframes star3 {
+    from {
+        top: 750px;
+    }
+    to {
+        top: 780px;
+    }
+}
+@keyframes star4 {
+    from {
+        top: 1400px;
+    }
+    to {
+        top: 1370px;
+    }
+}
+@keyframes star5 {
+    from {
+        top: 1350px;
+    }
+    to {
+        top: 1300px;
+    }
+}
+
+
+@keyframes circle1 {
+    from {
+        top: 300px;
+    }
+    to {
+        top: 350px;
+    }
+}
+
+@keyframes circle2 {
+    from {
+        top: 950px;
+    }
+    to {
+        top: 990px;
+    }
+}
+@keyframes circle3 {
+    from {
+        top: 1060px;
+    }
+    to {
+        top: 1100px;
+    }
+}@keyframes circle4 {
+    from {
+        bottom: 1520px;
+    }
+    to {
+        bottom: 1540px;
+    }
+}@keyframes circle5 {
+    from {
+        bottom: 1080px;
+    }
+    to {
+        bottom: 1130px;
+    }
+}@keyframes circle6 {
+    from {
+        bottom: 980px;
+    }
+    to {
+        bottom: 940px;
+    }
+}
