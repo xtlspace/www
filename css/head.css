@@ -1,0 +1,329 @@
+.background-img {
+    position: absolute;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    /* Firefox: */
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-play-state: running;
+    /* Safari and Chrome: */
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Opera: */
+    -o-animation-duration: 2s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -o-animation-play-state: running;
+}
+
+.h-circle-1 {
+    top: 20px;
+    left: -142px;
+    z-index: 3;
+    animation-name: h-circle;
+    animation-duration: 5s;
+}
+
+.h-circle-2 {
+    top: 400px;
+    left: 66px;
+    z-index: 3;
+    animation-name: h-circle;
+    animation-duration: 2s;
+}
+
+.h-circle-3 {
+    bottom: 220px;
+    left: 600px;
+    z-index: 3;
+    animation-name: h-circle;
+    animation-duration: 6s;
+}
+
+.h-circle-4 {
+    top: 300px;
+    left: 960px;
+    z-index: 3;
+    animation-name: h-circle-f;
+    animation-duration: 6s;
+}
+
+.h-circle-5 {
+    top: 60px;
+    left: 1020px;
+    z-index: 3;
+    animation-name: h-circle-f;
+    animation-duration: 6s;
+}
+
+.h-circle-6 {
+    right: 220px;
+    bottom: 350px;
+    z-index: 3;
+    animation-name: h-circle-f;
+    animation-duration: 6s;
+}
+
+.h-circle-7 {
+    right: 110px;
+    top: 120px;
+    z-index: 3;
+    animation-name: h-circle-f;
+    animation-duration: 6s;
+}
+
+.h-circle-8 {
+    top: -300px;
+    right: -300px;
+    z-index: 3;
+    animation-name: h-circle-f;
+    animation-duration: 6s;
+}
+
+.h-leaf-1 {
+    left: -80px;
+    bottom: -108px;
+    z-index: 9;
+    animation-name: h-leaf1;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+
+.h-leaf-2 {
+    left: 400px;
+    bottom: 0px;
+    animation-name: h-leaf2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    z-index: 0;
+}
+
+.h-leaf-3 {
+    left: 870px;
+    bottom: 40px;
+    animation-name: h-leaf3;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    z-index: 0;
+}
+
+.h-leaf-4 {
+    right: 720px;
+    bottom: 280px;
+    animation-name: h-leaf2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    z-index: 0;
+}
+
+.h-leaf-5 {
+    right: 380px;
+    bottom: 60px;
+    animation-name: h-leaf1;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    z-index: 0;
+}
+
+.h-leaf-6 {
+    right: 200px;
+    top: 20px;
+    animation-name: h-leaf2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    z-index: 0;
+}
+
+.h-leaf-7 {
+    right: -200px;
+    bottom: 20px;
+    animation-name: h-leaf2;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    z-index: 4;
+}
+
+.h-star-1 {
+    left: 300px;
+    bottom: 180px;
+    z-index: 0;
+    animation-name: h-star1;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.h-star-2 {
+    left: 860px;
+    top: 150px;
+    z-index: 0;
+    animation-name: h-star2;
+    animation-duration: 8s;
+    animation-direction: alternate;
+}
+
+.h-star-3 {
+    bottom: 300px;
+    left: 910px;
+    animation-name: h-star3;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.h-star-4 {
+    right: 480px;
+    top: 30px;
+    z-index: 0;
+    animation-name: h-circle-f;
+    animation-duration: 10s;
+    animation-direction: alternate;
+}
+
+.h-star-5 {
+    right: 440px;
+    bottom: 180px;
+    z-index: 0;
+    animation-name: h-star5;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+
+@keyframes h-star5 {
+    from {
+        bottom: 180px;
+    }
+    to {
+        bottom: 220px;
+    }
+}
+
+@keyframes h-circle {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(720deg);
+    }
+}
+
+
+@keyframes h-circle-f {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-720deg);
+    }
+}
+
+@keyframes h-leaf1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes h-leaf2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes h-leaf3 {
+    from {
+        transform: rotate(10deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes h-star1 {
+    0% {
+        transform: rotate(-10deg);
+        bottom: 180px;
+    }
+    25% {
+        transform: rotate(-5deg);
+        bottom: 210px;
+    }
+    50% {
+        transform: rotate(0deg);
+        left: 270px;
+    }
+    75% {
+        transform: rotate(5deg);
+        left: 330px;
+    }
+    100% {
+        transform: rotate(10deg);
+        bottom: 180px;
+        left: 300px;
+    }
+}
+
+@keyframes h-star2 {
+    0% {
+        transform: rotate(-10deg);
+        top: 120px;
+        left: 820px;
+    }
+    25% {
+        transform: rotate(-30deg);
+        top: 100px;
+        left: 880px;
+    }
+    50% {
+        transform: rotate(-50deg);
+        top: 170px;
+        left: 840px;
+    }
+    75% {
+        transform: rotate(-20deg);
+        top: 200px;
+        left: 900px;
+    }
+    100% {
+        transform: rotate(10deg);
+        left: 860px;
+        top: 150px;
+    }
+}
+
+@keyframes h-star3 {
+    0% {
+        transform: rotate(-10deg);
+        bottom: 320px;
+        left: 940px;
+    }
+    25% {
+        transform: rotate(-30deg);
+        bottom: 360px;
+        left: 920px;
+    }
+    50% {
+        transform: rotate(-50deg);
+        bottom: 290px;
+        left: 880px;
+    }
+    75% {
+        transform: rotate(-20deg);
+        bottom: 310px;
+        left: 960px;
+    }
+    100% {
+        transform: rotate(10deg);
+        bottom: 300px;
+        left: 910px;
+    }
+}

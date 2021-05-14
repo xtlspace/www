@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+
+    .context, #footerbl, .footer {
+        display: none;
+    }
+
+    .navbg {
+        padding: 20px 10px 0px 10px;
+    }
+
+    .navitem {
+        width: 100%;
+    }
+
+    .fake-tag {
+        display: none;
+    }
+
+    .headercontainer {
+        padding-top: 20px;
+        height: 85%;
+        top: -1px;
+    }
+
+    .containercenter {
+        padding: 0px 20px;
+
+    }
+
+    .headerline1 {
+        font-size: 40px;
+    }
+
+    .background-img {
+        display: none;
+        z-index: 1;
+    }
+
+    .star {
+        display: none;
+    }
+
+    .h-star-1 {
+        left: 35px;
+        bottom: 200px;
+        animation-name: h-star6;
+    }
+
+    .phone-back-img {
+        display: block;
+    }
+
+    .headbl {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .topimg {
+        display: none;
+    }
+
+    .h-leaf-3 {
+        left: 0px;
+        bottom: -10px;
+    }
+
+    .h-leaf-2 {
+        left: auto;
+        right: 0;
+        bottom: -10px;
+    }
+
+    @keyframes h-star6 {
+        50% {
+            left: 68px;
+            bottom: 270px;
+        }
+        100% {
+            left: 200px;
+            bottom: 70px;
+        }
+    }
+    /*.row .col-sm-4:nth-of-type(odd) .container1block, .row .col-sm-4:nth-of-type(even) .container1block {
+        margin: 0px;
+    }
+
+
+
+    .phoneimage {
+        width: 100%;
+    }
+
+    #usercomment .col-sm-4:nth-child(2) .containercenter-2 {
+        margin: 0px;
+    }
+
+    #usercomment .col-sm-4:nth-child(3) .containercenter-2, #usercomment .col-sm-4:nth-child(4) .containercenter-2 {
+        margin: 80px 0px 0px 0px;
+    }
+
+    .increasedmargins {
+        margin-top: 100px;
+    }
+
+    .container3title {
+        margin: 100px 0px 30px;
+    }
+
+    #dbtns .col-sm-3:nth-child(2) .downloadbtns, #dbtns .col-sm-3:nth-child(3) .downloadbtns, #dbtns .col-sm-3:nth-child(4) .downloadbtns, #dbtns .col-sm-3:last-child .downloadbtns {
+        margin: 0px auto;
+    }
+
+    .downloadbtns {
+        width: 280px;
+    }*/
+}
