@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.687" height="28.687" viewBox="0 0 28.687 28.687">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4d5292"/>
+      <stop offset="1" stop-color="#28293d"/>
+    </linearGradient>
+  </defs>
+  <circle id="imgCircle8" cx="10.5" cy="10.5" r="10.5" transform="translate(28.687 10.5) rotate(120)" fill="url(#linear-gradient)"/>
+</svg>
